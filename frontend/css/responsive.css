@@ -1,0 +1,21 @@
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .article-container {
+        padding: 10px;
+    }
+}
+
+/* 平板适配 */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .article-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
